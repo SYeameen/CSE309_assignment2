@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(23, 23, 26, 0.65), rgba(59, 57, 68, 0.65)),url(img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 1.2rem 3.3rem;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: all 0.5s linear;
+}
+
+.nav-link:hover {
+    color: rgb(15, 99, 99);
+}
+
+
+.main {
+    min-height: calc(100vh - 70.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner {
+    text-align: center;
+    color: white;
+    padding: 0 3rem;
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    letter-spacing: 1.2rem;
+    font-size: 40px;
+}
+
+.main-text {
+    width: 80%;
+    margin: 5rem auto;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+    border: 2px solid white;
+    padding: 1.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+}
+
+.button:hover {
+    background: white;
+    color:rgb(212, 0, 255);
+}
+
+.section-footer{
+    background: rgb(172, 162, 162);
+    color: whitesmoke;
+    text-align: center;
+    padding: 15rem 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-icon {
+    
+    font-size: 2rem;
+    color: white;
+    padding-top: 5rem;
+    margin-right: 5rem;
+    transition: all 0.5s linear;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+    transform: translateY(-10%)
+}
+
+.copyright {
+    cursor: pointer;
+    padding-top: 15rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1rem;
+}
